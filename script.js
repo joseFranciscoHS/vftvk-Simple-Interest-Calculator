@@ -28,5 +28,5 @@ function updateRate(){
     // NOTE This function updates the value for the interest
     // rate displayed.
     let rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
